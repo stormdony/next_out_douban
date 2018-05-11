@@ -5,7 +5,6 @@ from selenium import webdriver
 import selenium.webdriver.support.ui as ui
 from time import sleep
 import pymongo
-# brower = webdriver.PhantomJS(executable_path="D:/phantomjs-2.1.1-windows/bin/phantomjs.exe")
 
 brower = webdriver.Chrome()
 wait = ui.WebDriverWait(brower,10)
